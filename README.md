@@ -6,7 +6,7 @@
 
 - [Deploy da Demonstração](https://rtk-translate-demo.vercel.app/)
 - [Pacote NPM](https://www.npmjs.com/package/rtk-translate)
-- [Repositório GitHub](https://www.github.com/seulink/aqui) 
+- [Repositório GitHub](https://github.com/vitor-nogueira-dev/rtk-translate) 
 
 ## 🚀 Características
 
@@ -28,7 +28,7 @@ npm install rtk-translate
 > 🔗 [Veja a documentação completa aqui](https://www.npmjs.com/package/rtk-translate)
 
 ### ⁉️ Dúvidas, sugestões e melhorias 
-Se você tiver dúvidas, quiser relatar um bug ou solicitar novos recursos, por favor, abra uma [issue]()
+Se você tiver dúvidas, quiser relatar um bug ou solicitar novos recursos, por favor, abra uma [issue](https://github.com/vitor-nogueira-dev/rtk-translate/issues)
 
 ### 📝 Licença
 Este projeto está licenciado sob a licença **MIT**. Veja o arquivo [LICENSE](/LICENSE) para mais detalhes.
