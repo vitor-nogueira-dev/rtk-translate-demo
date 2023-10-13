@@ -1,9 +1,19 @@
 'use client'
-
+import { useEffect, useState } from 'react';
 import { LanguageSelect, useTranslation } from 'rtk-translate'
+import npm from 'npm-stats-api';
 
 export default function Home() {
+  const [downloads, setDownloads] = useState(0);
   const { validLanguages, currentLanguage, setCurrentLanguage, translateText } = useTranslation();
+
+  useEffect(() => {
+    (async () => {
+      const res = await npm.stat("rtk-translate", "2023-10-01", "2023-10-31")
+      setDownloads(res?.body?.downloads);
+    })();
+  }, [])
+
   return (
     <main className="flex flex-col min-h-screen items-center justify-between p-8 space-y-12">
       <div className="self-start w-full flex items-center space-x-4 justify-center">
@@ -14,16 +24,21 @@ export default function Home() {
         // showSearchInput={false}
         // isNameVisible={false}
         />
+
       </div>
 
-      <header className="flex flex-col items-center space-y-4">
+      <header className="flex flex-col items-center space-y-3">
         <h1 className="text-4xl font-bold flex items-center justify-center gap-2 flex-wrap text-center">{translateText('titleHero')}<strong>RTK-Translate</strong>
         </h1>
         <p className="text-lg text-gray-600">{translateText('subtitleHero')}</p>
         <p>{translateText('descriptionHero')}</p>
+        <div className="p-1 px-2 border rounded shadow-md hover:shadow-lg transition flex items-center gap-2 mt-4">
+          <h2 className="text-xl font-semibold">{translateText('downloads')}</h2>
+          <p className="text-gray-600">{downloads || 0}</p>
+        </div>
       </header>
 
-      <section className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 w-full">
+      <section className="mt-0 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 w-full">
         <div className="p-6 border rounded shadow-md hover:shadow-lg transition">
           <h2 className="text-xl font-semibold mb-4">{translateText('titleCardOne')}</h2>
           <p className="text-gray-600">{translateText('descriptionCardOne')}</p>

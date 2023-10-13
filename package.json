@@ -11,6 +11,7 @@
   "dependencies": {
     "@vercel/analytics": "^1.1.1",
     "next": "13.5.4",
+    "npm-stats-api": "^2.0.2",
     "react": "^18",
     "react-dom": "^18",
     "rtk-translate": "^1.0.36"

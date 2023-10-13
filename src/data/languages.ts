@@ -13,6 +13,7 @@ const languages = {
     descriptionCardFour: 'Para dúvidas e sugestões, abra uma Issue em nosso repositório.',
     textFooterComunity: 'Feito para a comunidade',
     textFooterRepository: 'Acesse nosso repositório no GitHub',
+    downloads: 'Downloads',
   },
   en: {
     titleHero: 'Discover the power of',
@@ -30,6 +31,7 @@ const languages = {
     descriptionCardFour: 'For inquiries and suggestions, open an Issue in our repository.',
     textFooterComunity: 'Made for the community',
     textFooterRepository: 'Visit our repository on GitHub',
+    downloads: 'Downloads',
   },
   es: {
     titleHero: 'Descubre el poder del',
@@ -47,6 +49,7 @@ const languages = {
     descriptionCardFour: 'Para preguntas y sugerencias, abre un Issue en nuestro repositorio.',
     textFooterComunity: 'Hecho para la comunidad',
     textFooterRepository: 'Visita nuestro repositorio en GitHub',
+    downloads: 'Descargas',
   },
   fr: {
     titleHero: 'Découvrez la puissance du',
@@ -64,6 +67,7 @@ const languages = {
     descriptionCardFour: 'Pour des questions et des suggestions, ouvrez une Issue sur notre dépôt.',
     textFooterComunity: 'Fait pour la communauté',
     textFooterRepository: 'Accédez à notre dépôt sur GitHub',
+    downloads: 'Téléchargements',
   },
   de: {
     titleHero: 'Entdecken Sie die Kraft von',
@@ -81,6 +85,7 @@ const languages = {
     descriptionCardFour: 'Bei Fragen und Vorschlägen, eröffnen Sie ein Issue in unserem Repository.',
     textFooterComunity: 'Gemacht für die Gemeinschaft',
     textFooterRepository: 'Besuchen Sie unser Repository auf GitHub',
+    downloads: 'Downloads',
   },
   it: {
     titleHero: 'Scopri la potenza di',
@@ -98,6 +103,7 @@ const languages = {
     descriptionCardFour: 'Per domande e suggerimenti, apri un Issue nel nostro repository.',
     textFooterComunity: 'Fatto per la comunità',
     textFooterRepository: 'Visita il nostro repository su GitHub',
+    downloads: 'Download',
   },
   ja: {
     titleHero: 'のパワーを発見',
@@ -115,7 +121,26 @@ const languages = {
     descriptionCardFour: '質問や提案がある場合は、リポジトリにIssueを開いてください。',
     textFooterComunity: 'コミュニティのために作成',
     textFooterRepository: 'GitHubのリポジトリを訪問',
+    downloads: 'ダウンロード',
   },
 }
 
 export default languages;
+
+const stacks = [
+  {
+    name: 'HTML',
+    description: 'HyperText Markup Language',
+    keyTranslate: 'html',
+  },
+  {
+    name: 'CSS',
+    description: 'Cascading Style Sheets',
+    keyTranslate: 'css',
+  },
+  {
+    name: 'JavaScript',
+    description: 'JavaScript',
+    keyTranslate: 'javascript',
+  }
+]
