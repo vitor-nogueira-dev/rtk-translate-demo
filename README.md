@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Este é um site demo da biblioteca `rtk-translate`
 
-## Getting Started
+🌎 **RTK - Translate** é uma biblioteca criada para simplificar a tradução de seu **site**, **portfólio**, **software** e muito mais. Projetada para ser *simples*, *intuitiva* e *prática*. Integre-a facilmente em seus projetos e suporte quantos idiomas desejar.
 
-First, run the development server:
+## 🔗 Links Úteis
+
+- [Deploy da Demonstração](https://rtk-translate-demo.vercel.app/)
+- [Pacote NPM](https://www.npmjs.com/package/rtk-translate)
+- [Repositório GitHub](https://www.github.com/seulink/aqui) 
+
+## 🚀 Características
+
+- **Facilidade de Uso**: Integre em minutos com seu projeto React.
+- **Flexível**: Suporta tantos idiomas quanto você precisa.
+- **Leve**: Minimamente invasivo, não sobrecarrega o tamanho do seu pacote.
+- **Personalizável**: Use com suas próprias chaves e valores de tradução.
+
+## 🛠 Como Usar
+
+1. Instale a biblioteca via NPM:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install rtk-translate
 ```
+2. Integre em seu projeto React.
+3. Configure suas traduções e comece a usar!
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> 🔗 [Veja a documentação completa aqui](https://www.npmjs.com/package/rtk-translate)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### ⁉️ Dúvidas, sugestões e melhorias 
+Se você tiver dúvidas, quiser relatar um bug ou solicitar novos recursos, por favor, abra uma [issue]()
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### 📝 Licença
+Este projeto está licenciado sob a licença **MIT**. Veja o arquivo [LICENSE](/LICENSE) para mais detalhes.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+> ⭐️ Este README foi gerado a partir do Gerador de README drag in drop. Experimente aqui: [Code Mark](https://code-mark.vercel.app/)
