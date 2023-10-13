@@ -1,5 +1,6 @@
 'use client'
 import { useEffect } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 
 import { TranslationProvider } from 'rtk-translate';
 import languages from '@/data/languages';
@@ -41,15 +42,17 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-      <title>RTK Translate</title>
-      <meta name="description" content="RTK Translate Demo" />
+        <title>RTK Translate</title>
+        <meta name="description" content="RTK Translate Demo" />
       </Head>
       <TranslationProvider
         storageKey='rtk-demo-translate'
         languages={languages}
         availableLanguages={['pt', 'en', 'es', 'de', 'it', 'ja', 'fr']}
       >
-        <body>{children}</body>
+        <body>{children}
+          <Analytics />
+        </body>
       </TranslationProvider>
     </html>
   )
