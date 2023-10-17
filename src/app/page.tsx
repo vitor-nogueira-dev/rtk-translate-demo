@@ -62,7 +62,7 @@ export default function Home() {
       <footer className="w-full border-t p-6 mt-12">
         <div className="flex justify-center items-center flex-col space-y-4 text-center">
           <p className="text-gray-600">{translateText('textFooterComunity')} ❤️</p>
-          <a href="https://github.com/seu-repo/rtk-translate" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">{translateText('textFooterRepository')}</a>
+          <a href="https://github.com/vitor-nogueira-dev/rtk-translate" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">{translateText('textFooterRepository')}</a>
         </div>
       </footer>
     </main>
